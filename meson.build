@@ -79,7 +79,7 @@ asresources = gnome.compile_resources(
 
 gstreamer = false
 gtk_dep = dependency('gtk4', version: '>=4.13.4', required: true)
-libadwaita_dep = dependency('libadwaita-1', version: '>=1.5', required: true)
+libadwaita_dep = dependency('libadwaita-1', version: '>=1.6', required: true)
 gtksourceview_dep = dependency('gtksourceview-5', required: true, version: '>=5.6.0')
 libwebp_dep = dependency('libwebp', required: false)
 libspelling = dependency('libspelling-1', required: false)
